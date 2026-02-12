@@ -152,3 +152,86 @@ footer{
     font-size: 20px;
     transition: all 0.3s ease;
 }
+/* Smartphones (portrait) - 320px à 480px */
+@media screen and (max-width: 480px) {
+    header {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    #logo {
+        width: 60px;
+        height: 60px;
+    }
+    
+    #top {
+        flex-direction: column;
+        margin-right: 0;
+        gap: 15px;
+        font-size: 16px;
+    }
+    
+    h1 {
+        font-size: 28px;
+        margin-left: 20px;
+        text-align: center;
+    }
+    
+    #texte {
+        font-size: 16px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .product-container {
+        flex-direction: column;
+        margin: 20px;
+        padding: 15px;
+    }
+    
+    .product-details {
+        padding: 20px 0;
+    }
+    
+    .btn-buy {
+        width: 90%;
+        margin-left: 5%;
+        padding: 15px;
+        font-size: 1rem;
+    }
+    
+    .image-gallery {
+        flex-direction: column;
+        margin: 20px 10px;
+    }
+    
+    .image-gallery img {
+        width: 100%;
+        max-width: 350px;
+    }
+}
+
+/* Tablettes (portrait) - 481px à 768px */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    #top {
+        margin-right: 50px;
+        gap: 20px;
+        font-size: 18px;
+    }
+    
+    h1 {
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    
+    .product-container {
+        margin: 30px;
+        padding: 20px;
+    }
+    
+    .image-gallery img {
+        width: 45%;
+    }
+}
