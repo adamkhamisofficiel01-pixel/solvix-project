@@ -1,0 +1,107 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    background: linear-gradient(to bottom, #000022, #87CEEB);
+    background-attachment: fixed;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 2y;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('images/logo.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    opacity: 0.5; 
+    z-index: -1;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.4;
+    width: 100%;
+    height: 100%;
+}
+.social-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.social-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 15px 20px;
+}
+
+.social-item .label {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.social-item a {
+    font-size: 32px;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+}
+
+.social-item a:hover {
+    transform: scale(1.2);
+}
+
+.separator {
+    width: 2px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 0 10px;
+}
+
+.social-item.facebook a {
+    color: #1877F2;
+}
+
+.social-item.instagram a {
+    color: #E4405F;
+}
+
+.social-item.twitter a {
+    color: #1DA1F2;
+}
+
+.social-item.telegram a {
+    color: #0088cc;
+}
+
+.social-item.youtube a {
+    color: #FF0000;
+}
+
+.social-item.github a {
+    color: #333333;
+}
+
+.social-item.linkedin a {
+    color: #0A66C2;
+}
+
+.social-item.whatsapp a {
+    color: #25D366;
+}
+
+.social-item .label {
+    color: white;
+}
+
+div {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
